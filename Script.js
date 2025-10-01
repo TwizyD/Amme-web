@@ -1,4 +1,30 @@
-const allNames = Array.from({ length: 100 }, (_, i) => `Name ${i + 1}`);
+const allNames = [
+  "Nyamakhaya Matebeleng",
+  "Corner couch",
+  "United lounge",
+  "Off extreme",
+  "Endaweni",
+  "Lovers",
+  "Obsession",
+  "Capadona",
+  "The Bull & Bush",
+  "Sky Lounge",
+  "Chez Ntemba",
+  "Havana Lounge",
+  "The Ranch",
+  "The Lounge",
+  "Club Temptations",
+  "Liquid Lounge",
+  "Trophy Lounge",
+  "The Kalahari Klub",
+  "The Old Dutch Pub",
+  "Botswana Craft",
+  "The Village",
+  "Sankara Lounge",
+  "Club Vintage",
+  "Club Ignite"
+];
+
 let usedNames = new Set();
 let history = [];
 const startBtn = document.getElementById('startBtn');
